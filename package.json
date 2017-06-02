@@ -1,38 +1,22 @@
 {
-  "name": "blog-api-mongoose",
-  "version": "1.0.0",
-  "description": "A blog API implemented using Express and Mongoose. Uses a MongoDB database at the back end.",
+  "name": "blog-app-challenge-starter-files",
+  "version": "0.0.1",
+  "description": "Shopping list app to demo 'the modern classic'",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dakshshah96/blog-api-mongoose.git"
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.12.4",
+    "mongoose": "^4.7.1",
+    "morgan": "^1.7.0",
+    "uuid": "^2.0.3"
   },
   "keywords": [
-    "blog",
-    "api",
-    "express",
-    "mongoose",
-    "mongodb"
+    "node",
+    "hyperdev",
+    "express"
   ],
-  "author": "Daksh Shah",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/dakshshah96/blog-api-mongoose/issues"
-  },
-  "homepage": "https://github.com/dakshshah96/blog-api-mongoose#readme",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "mongoose": "^4.10.4",
-    "morgan": "^1.8.2"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^3.0.0",
-    "faker": "^3.1.0",
-    "mocha": "^3.2.0"
-  }
+  "license": "MIT"
 }
